@@ -1,0 +1,66 @@
+a{
+  text-decoration: none !important;
+  color: black !important; 
+  padding: 0;
+  margin-right: 20px;
+}
+
+img {
+ 
+  width:50%;
+  /* 画像周りの無駄なスペースができないように */
+  vertical-align: bottom;
+  margin: 0;
+	padding: 0;
+  margin-left: 20px;
+  
+}
+
+
+.animals{
+ 
+  display: flex;
+  padding-left:30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+div.left img {
+  width: 100%; /* 新しい幅を指定 */
+  height: 50%; /* 新しい高さを指定 */
+}
+
+
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+}
+
+/* クラス ink_age の幅を設定 */
+.inko_age {
+      padding-bottom:50px;
+      padding-top:20px;
+      text-align:center;
+      
+}
+
+/* クラス cat_age の幅を設定 */
+.cat_age {
+      padding-bottom:30px;
+      text-align:center;
+}
+
+li {
+  list-style: none !important;
+}
